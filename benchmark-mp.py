@@ -1,5 +1,5 @@
-from GWO import MLL_GWO, GWO, AGWO, LGWO, LCGWO, LCGWO2, LCGWO3, LCGWO4, LCGWO5, LCGWO6, LCGWO7, LCGWO8, ACGWO, LFGWO, LFGWO2, LFGWO3, LFGWO4, LFGWO5, LFGWO6, LFGWO7, LFGWO8, LFGWO9, LFGWO10, LMGWO, LMGWO2, LMGWO3, LMGWO4, LRGWO, MELGWO, SOGWO
-from PSO import MPSO
+from GWO import LMGWO, GWO, AGWO, MELGWO, SOGWO
+from MPSO import MPSO
 from SSA import SSA
 from ChOA import ChOA
 from QRFS import QRFS
@@ -88,40 +88,15 @@ max_iter = 500
 
 # 存储算法列表，便于扩展
 algorithms = {
-    # 'LFGWO': LFGWO,
-    # 'LFGWO2': LFGWO2,
-    # 'LFGWO3': LFGWO3,
-    # 'LFGWO4': LFGWO4,
-    # 'LFGWO5': LFGWO5,
-    'LFGWO6': LFGWO6,
-    'LFGWO7': LFGWO7,
-    'LFGWO8': LFGWO8,
-    'LFGWO9': LFGWO9,
-    'LFGWO10': LFGWO10,
     'LMGWO': LMGWO,
-    'LMGWO2': LMGWO2,
-    'LMGWO3': LMGWO3,
-    'LMGWO4': LMGWO4,
-    'LRGWO': LRGWO,
     'GWO': GWO,
     'AGWO': AGWO,
-    'DMLLS_GWO': MLL_GWO,
     'QRFS': QRFS,
-    'LGWO': LGWO,
-    #'LCGWO': LCGWO,
-    #'LCGWO2': LCGWO2,
-    #'LCGWO3': LCGWO3,
-    # 'LCGWO4': LCGWO4,
-    #'LCGWO5': LCGWO5,
-    'LCGWO6': LCGWO6,
-    'LCGWO7': LCGWO7,
-    'LCGWO8': LCGWO8,
     'MELGWO': MELGWO,
     'SOGWO': SOGWO,
     'MPSO': MPSO,
     'SSA': SSA,
     'ChOA': ChOA,
-    'ACGWO': ACGWO,
 }
 
 # 在主代码中
